@@ -5,53 +5,63 @@
     <title>WEBPRO_1303223024</title>
 </head>
 <body>
-    <h1>Personal Profile</h1>
-    <table border="0" cellspacing="10">
-        <tr>
-            <th>Profile Picture</th>
-            <th>Introduce Video</th>
-        </tr>
-        <tr <div align="center">
-            <td><img src="photo.jpg" width="180" height="240"></td>
-            <td><video src="video.mp4" width="360" height="210"></td>
-        </tr>
-    </table>
+    <div> <!-- <div>Tag untuk membuat sebuah divisi atau bagian dalam halaman web. Biasanya digunakan untuk mengelompokkan elemen-elemen HTML. -->
+        <h1>Personal Profile</h1>
+        <table border="0" cellspacing="10"> <!-- <table> Tag untuk membuat tabel di halaman web. Tabel digunakan untuk menampilkan data dalam format baris dan kolom -->
+            <tr> <!-- <tr> (Table Row)Tag untuk mendefinisikan baris dalam tabel -->
+                <th>Profile Picture</th> <!-- <th> (Table Header)Tag untuk mendefinisikan header kolom dalam tabel. Biasanya digunakan dalam baris pertama tabel -->
+                <th>Introduce Video</th>
+            </tr>
+            <tr align="center">
+                <!-- <td> (Table Data)Tag untuk mendefinisikan sel atau data dalam tabel -->
+                <td><img src="photo.jpg" width="180" height="240"></td> <!-- <img>Tag untuk menampilkan gambar di halaman web. Atribut penting adalah src (sumber gambar) dan alt (teks alternatif) -->
+                <td><video src="video.mp4" width="360" height="210"></td> <!-- <video>Tag untuk menampilkan video di halaman web. Anda bisa menambahkan kontrol seperti play, pause, volume, dll. -->
+            </tr>
+        </table>
+    </div>
 
-    <h2>About Me</h2>
-    Hello! I am an enthusiatic web developer with a passion for technology and creative design.
+    <div>
+        <h2>About Me</h2>
+        Hello! I am an enthusiatic web developer with a passion for technology and creative design.
+    </div>
 
-    <h2>Skills</h2>
-    <table border="0" cellspacing="10">
-        <tr>
-            <th>Skills</th>
-            <th>Level</th>
-        </tr>
-        <tr>
-            <td>HTML/CSS</td>
-            <td>Expert</td>
-        </tr>
-        <tr>
-            <td>JavaScript</td>
-            <td>Intermediate</td>
-        </tr>
-        <tr>
-            <td>Python</td>
-            <td>Beginner</td>
-        </tr>
-    </table>
-    
-    <h2>Contact Me</h2>
-    <form>
-        Name: <input type="text" name="Name"/><br />
-        Email: <input type="text" name="Email"/><br />
-        Message: <br /> <textarea name="Message" rows="3" cols="20"></textarea>
-    </form>
+    <div>
+        <h2>Skills</h2>
+        <table border="0" cellspacing="5">
+            <tr>
+                <th>Skills</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Expert</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Beginner</td>
+            </tr>
+        </table>
+    </div>
 
-    <button>Send Message</button>
+    <div>
+        <h2>Contact Me</h2>
+        <form> <!-- <form>Tag untuk membuat formulir yang digunakan untuk mengirimkan data ke server. Formulir dapat berisi elemen input seperti teks, tombol, dan lainnya -->
+            Name: <input type="text" name="Name"/><br /> <!-- <input>Tag untuk membuat elemen input dalam form. Ada berbagai tipe input seperti teks, email, password, radio, checkbox, dll -->
+            Email: <input type="text" name="Email"/><br />
+            Message: <br /> <textarea name="Message" rows="3" cols="20"></textarea>
+        </form>
+        <button>Send Message</button> <!-- <button>Tag untuk membuat tombol yang biasanya digunakan untuk mengirimkan formulir atau memicu tindakan -->
+    </div>
 
-    <h2>Social Media:</h2>
-    <a href="https://linkedin.com">LinkedIn |</a>
-    <a href="https://github.com/zyzz-77/zyzz-77/blob/main/TP03.html"> Github |</a>
-    <a href="https://x.com">Twitter</a>
+    <div>
+        <h2>Social Media:</h2>
+        <a href="https://linkedin.com">LinkedIn |</a> <!-- <a>Tag untuk membuat hyperlink yang menghubungkan satu halaman dengan halaman lain atau sumber eksternal -->
+        <a href="https://github.com/zyzz-77/zyzz-77/blob/main/TP03.html"> Github |</a>
+        <a href="https://x.com">Twitter</a>
+    </div>
 </body>
 </html>
